@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #451c7a;
+  color: whitesmoke;
+}
+
+.container,
+footer {
+  width: 70%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 0;
+  padding: 2.125em 0 3.125em 0;
+}
+
+footer {
+  padding: 1.5em 0;
+  color: #451c7a;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+h2 {
+  color: #451c7a;
+}
+
+nav {
+  margin-top: 0.937em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0.625em 0;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+.sub-heading {
+  display: block;
+  color: #d0aaff;
+  font-size: 1.125rem;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 650px;
+}
+
+p {
+  line-height: 1.325em;
+}
+
+a {
+  color: orangered;
+  text-decoration: underline dotted;
+}
+
+.btn {
+  font-size: 0.875rem;
+  padding: 0.625em 0.9375em;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.625em;
+}
+
+.dark {
+  background-color: #451c7a;
+  color: whitesmoke;
+}
+
+.light {
+  background-color: #f0e0ff;
+  color: #451c7a;
+}
+
+.white {
+  background-color: whitesmoke;
+  color: #451c7a;
+}
+
+.btn:hover,
+.btn:active {
+  color: #2b238a;
+  background-color: #f3e885;
+}
+
+.section-two-container {
+  background-color: #451c7a;
+}
+
+.section-two-container h2 {
+  margin-bottom: 0.825em;
+}
+
+.section-two-container p,
+.section-two-container h2 {
+  color: whitesmoke;
+}
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1em;
+}
+
+.feature-item {
+  flex: 1 220px;
+}
+
+.feature-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  header .container {
+    display: flex;
+    padding: 1.125em 0;
+    justify-content: space-between;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 1.1em;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    text-align: center;
+    padding-top: 1.125em;
+  }
+
+  h1 {
+    font-size: 1.65rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.975rem;
+  }
+
+  li:not(:last-child) {
+    border-bottom: 1px dotted whitesmoke;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin-top: 1.1em;
+  }
+}
