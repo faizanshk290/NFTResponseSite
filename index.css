@@ -10,8 +10,8 @@ header {
 
 .container,
 footer {
-  width: 70%;
-  max-width: 650px;
+  width: 75%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
